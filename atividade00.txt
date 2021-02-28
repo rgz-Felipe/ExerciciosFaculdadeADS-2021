@@ -1,0 +1,21 @@
+package Atividades2502;
+
+import java.util.Scanner;
+
+public class Atividade6 {
+
+	public static void main(String[] args) {
+		
+	Scanner entrada = new Scanner(System.in);
+	 System.out.println("Problemas Matematicos: \nA)15+16 \nB)16-15");
+		int valor1 = 15;
+	    int valor2 = 16;
+	
+	int soma = valor1+valor2;
+	int subtracao = valor1-valor2;
+	entrada.close();
+	 System.out.println("Resultado da Soma de A:" + soma + "\nResultado Subtraçao de B:" + subtracao);
+	 	
+	}
+
+}
